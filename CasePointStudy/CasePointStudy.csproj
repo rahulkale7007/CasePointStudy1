@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\Factorial.cs" />
+    <Compile Include="Demo\Inheritance.cs" />
     <Compile Include="Demo\Overloading.cs" />
     <Compile Include="Demo\Overriding.cs" />
+    <Compile Include="Demo\SwappingUsingThirdVariable.cs" />
     <Compile Include="Demo\SwappingWithoutUsingThirdVariable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

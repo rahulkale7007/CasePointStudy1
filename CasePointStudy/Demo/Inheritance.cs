@@ -1,12 +1,47 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CasePointStudy.Demo
+namespace INHERITANCE_CSHARP
 {
-    internal class Inheritance
+
+    class PermanentEmployees : Employees
     {
+
+        public int permanentSalary;
+        public int permanentHours;
+    }
+    class Employees
+    {
+        public int EmpId;
+        public string EmpName;
+        public int EmpAge;
+        public int EmpContactNo;
+
+        public void show()
+        {
+            Console.WriteLine("This is a method of base class !!");
+        }
+
+    }
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            PermanentEmployees Asad = new PermanentEmployees();
+            Asad.EmpId = 12;
+            Asad.show();
+
+
+            Console.WriteLine(Asad.EmpId);
+
+            Console.ReadLine();
+        }
+
     }
 }
+*/
